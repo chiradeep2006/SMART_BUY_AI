@@ -1,0 +1,30 @@
+{
+  "name": "smartbuy-ai",
+  "version": "1.0.0",
+  "description": "SmartBuy AI - Intelligent Shopping Researcher with Multilingual Indian Localization & Gemini AI",
+  "main": "server/src/server.js",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "dev:server": "node --watch server/src/server.js",
+    "dev:client": "npm --prefix client run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "npm --prefix client run build",
+    "test": "npm --prefix server run test && npm --prefix client run test",
+    "test:server": "npm --prefix server run test",
+    "test:client": "npm --prefix client run test",
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "keywords": [
+    "ecommerce",
+    "ai-shopping",
+    "gemini",
+    "product-comparison",
+    "multilingual",
+    "india"
+  ],
+  "author": "SmartBuy AI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
