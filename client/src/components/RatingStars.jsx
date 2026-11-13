@@ -33,3 +33,4 @@ export const RatingStars = ({ rating = 0, count = null, size = 'sm' }) => {
 };
 
 export default RatingStars;
+

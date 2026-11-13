@@ -77,3 +77,4 @@ export const Wishlist = () => {
 };
 
 export default Wishlist;
+

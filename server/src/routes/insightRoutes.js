@@ -8,3 +8,4 @@ router.get('/dashboard', optionalAuth, getDashboardInsights);
 router.get('/prices', getPriceInsights);
 
 export default router;
+

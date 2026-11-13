@@ -141,3 +141,4 @@ export const SearchHistory = () => {
 };
 
 export default SearchHistory;
+

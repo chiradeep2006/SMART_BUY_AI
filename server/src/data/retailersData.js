@@ -1,3 +1,4 @@
+
 export const RETAILER_PLATFORMS = [
   // India - General
   {
@@ -5,10 +6,10 @@ export const RETAILER_PLATFORMS = [
     name: 'Amazon India',
     region: 'India',
     category: 'General',
-    status: process.env.AMAZON_API_KEY ? 'Live integration' : 'Demo data',
+    status: import.meta.env.VITE_AMAZON_API_KEY ? 'Live integration' : 'Demo data',
     website: 'https://www.amazon.in',
     description: 'India largest marketplace for electronics, books, apparel, and essentials.',
-    affiliateConfigured: Boolean(process.env.AMAZON_API_KEY),
+    affiliateConfigured: Boolean(import.meta.env.VITE_AMAZON_API_KEY),
     lastSync: new Date().toISOString(),
   },
   {
@@ -16,10 +17,10 @@ export const RETAILER_PLATFORMS = [
     name: 'Flipkart',
     region: 'India',
     category: 'General',
-    status: process.env.FLIPKART_API_KEY ? 'Live integration' : 'Demo data',
+    status: import.meta.env.VITE_FLIPKART_API_KEY ? 'Live integration' : 'Demo data',
     website: 'https://www.flipkart.com',
     description: 'Leading Indian e-commerce platform with nationwide logistics.',
-    affiliateConfigured: Boolean(process.env.FLIPKART_API_KEY),
+    affiliateConfigured: Boolean(import.meta.env.VITE_FLIPKART_API_KEY),
     lastSync: new Date().toISOString(),
   },
   {
@@ -62,10 +63,10 @@ export const RETAILER_PLATFORMS = [
     name: 'Myntra',
     region: 'India',
     category: 'Fashion',
-    status: process.env.MYNTRA_API_KEY ? 'Live integration' : 'Demo data',
+    status: import.meta.env.VITE_MYNTRA_API_KEY ? 'Live integration' : 'Demo data',
     website: 'https://www.myntra.com',
     description: 'Major destination for branded fashion, footwear, and accessories.',
-    affiliateConfigured: Boolean(process.env.MYNTRA_API_KEY),
+    affiliateConfigured: Boolean(import.meta.env.VITE_MYNTRA_API_KEY),
     lastSync: new Date().toISOString(),
   },
   {
@@ -108,10 +109,10 @@ export const RETAILER_PLATFORMS = [
     name: 'Croma',
     region: 'India',
     category: 'Electronics',
-    status: process.env.CROMA_API_KEY ? 'Live integration' : 'Demo data',
+    status: import.meta.env.VITE_CROMA_API_KEY ? 'Live integration' : 'Demo data',
     website: 'https://www.croma.com',
     description: 'Tata electronic retail chain with verified warranty.',
-    affiliateConfigured: Boolean(process.env.CROMA_API_KEY),
+    affiliateConfigured: Boolean(import.meta.env.VITE_CROMA_API_KEY),
     lastSync: new Date().toISOString(),
   },
   {

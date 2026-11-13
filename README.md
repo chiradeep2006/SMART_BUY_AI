@@ -214,3 +214,4 @@ Creates minified, tree-shaken, production-optimized bundles in `client/dist`.
 
 ## 📄 License
 MIT License. Built for intelligent shopping research.
+

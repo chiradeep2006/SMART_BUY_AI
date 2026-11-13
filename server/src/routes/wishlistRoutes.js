@@ -12,3 +12,4 @@ router.delete('/:id', removeFromWishlist);
 router.get('/check/:productId', checkWishlistStatus);
 
 export default router;
+

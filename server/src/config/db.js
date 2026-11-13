@@ -44,3 +44,4 @@ export const getDBStatus = () => ({
 });
 
 export default connectDB;
+

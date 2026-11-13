@@ -161,3 +161,4 @@ export const getRetailers = async (req, res) => {
     retailers: RETAILER_PLATFORMS,
   });
 };
+

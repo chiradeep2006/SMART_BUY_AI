@@ -49,3 +49,4 @@ export const clearSearchHistory = async (req, res, next) => {
     next(error);
   }
 };
+

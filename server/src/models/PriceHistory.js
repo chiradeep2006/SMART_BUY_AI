@@ -27,3 +27,4 @@ const priceHistoryRecordSchema = new mongoose.Schema(
 priceHistoryRecordSchema.index({ product: 1, recordedAt: 1 });
 
 export default mongoose.models.PriceHistory || mongoose.model('PriceHistory', priceHistoryRecordSchema);
+

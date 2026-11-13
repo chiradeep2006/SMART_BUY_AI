@@ -10,3 +10,4 @@ router.get('/retailers', getRetailers);
 router.get('/:id', getProductById);
 
 export default router;
+

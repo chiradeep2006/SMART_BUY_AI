@@ -70,3 +70,4 @@ export const LanguageSelector = ({ compact = false }) => {
 };
 
 export default LanguageSelector;
+

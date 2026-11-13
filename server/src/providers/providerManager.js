@@ -107,3 +107,4 @@ class ProviderManager {
 }
 
 export default new ProviderManager();
+

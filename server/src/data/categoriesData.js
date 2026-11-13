@@ -140,3 +140,4 @@ export const UNIVERSAL_CATEGORIES = [
     subcategories: ['General Utility', 'Novelties', 'Craft Supplies'],
   },
 ];
+

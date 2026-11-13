@@ -144,3 +144,4 @@ const productSchema = new mongoose.Schema(
 productSchema.index({ title: 'text', brand: 'text', description: 'text', category: 'text' });
 
 export default mongoose.models.Product || mongoose.model('Product', productSchema);
+

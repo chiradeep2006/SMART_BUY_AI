@@ -149,3 +149,4 @@ export const rankAndBadgeProducts = (products, userBudget = null) => {
 
   return scoredProducts;
 };
+

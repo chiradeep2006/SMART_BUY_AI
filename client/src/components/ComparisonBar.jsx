@@ -81,3 +81,4 @@ export const ComparisonBar = () => {
 };
 
 export default ComparisonBar;
+

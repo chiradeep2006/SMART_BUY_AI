@@ -11,3 +11,4 @@ router.delete('/:id', deleteHistoryItem);
 router.delete('/', clearSearchHistory);
 
 export default router;
+

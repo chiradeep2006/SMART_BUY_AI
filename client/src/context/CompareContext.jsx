@@ -59,3 +59,4 @@ export const CompareProvider = ({ children }) => {
 };
 
 export const useCompare = () => useContext(CompareContext);
+

@@ -32,3 +32,4 @@ const searchHistorySchema = new mongoose.Schema(
 searchHistorySchema.index({ user: 1, createdAt: -1 });
 
 export default mongoose.models.SearchHistory || mongoose.model('SearchHistory', searchHistorySchema);
+

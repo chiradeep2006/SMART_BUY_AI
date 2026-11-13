@@ -311,3 +311,4 @@ export const Compare = () => {
 };
 
 export default Compare;
+

@@ -248,3 +248,4 @@ export const PriceInsights = () => {
 };
 
 export default PriceInsights;
+
